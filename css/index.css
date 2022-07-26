@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+
+    background: #555;
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+    font-size: 21px;
+    font-family: monospace;
+}
+
+#screen {
+    flex: 0 0 30px;
+    padding: 5px;
+    background: #EEE;
+    border: 2px #777 solid;
+    margin-bottom: 20px;
+    color: #188a18;
+}
+
+#buttons {
+    flex: 1;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button {
+    flex: 0 0 80px;
+    background: #F8F8F8;
+    border: 1px white solid;
+    border-radius: 3px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.button:hover {
+    background: #EAEAEA;
+    cursor: pointer;
+}
